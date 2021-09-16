@@ -23,4 +23,3 @@ Her er en oversigt over projekter
 
 - Azad
 - Frederik
-- Seid
