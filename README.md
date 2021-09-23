@@ -17,9 +17,5 @@ Her er en oversigt over projekter
 - [Mikkel - mikalodonen](https://mikalodonen.github.io/) ([source](https://github.com/mikalodonen/mikalodonen.github.io))
 - [Malthe - ioya666](https://ioya666.github.io/) ([source](https://github.com/ioya666/ioya666.github.io))
 - [Michael - homohenning2345](https://homohenning2345.github.io/) ([source](https://github.com/homohenning2345/homohenning2345.github.io))
-
-
-## Mangler
-
-- Azad
-- Frederik
+- [Azad - theprotix](https://theprotix.github.io/) ([source](https://github.com/theprotix/theprotix.github.io))
+- [Frederik - slipmip](https://slipmip.github.io/) ([source](https://github.com/slipmip/slipmip.github.io))
