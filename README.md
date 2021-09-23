@@ -14,7 +14,6 @@ Her er en oversigt over projekter
 - [Jesper - kilzgaard](https://kilzgaard.github.io/) ([source](https://github.com/kilzgaard/kilzgaard.github.io))
 - [Kasper - kasper534](https://kasper534.github.io/) ([source](https://github.com/kasper534/kasper534.github.io))
 - [Laurits - lassencs](https://lassencs.github.io/) ([source](https://github.com/lassencs/lassencs.github.io))
-- [Mikkel - mikalodonen](https://mikalodonen.github.io/) ([source](https://github.com/mikalodonen/mikalodonen.github.io))
 - [Malthe - ioya666](https://ioya666.github.io/) ([source](https://github.com/ioya666/ioya666.github.io))
 - [Michael - homohenning2345](https://homohenning2345.github.io/) ([source](https://github.com/homohenning2345/homohenning2345.github.io))
 - [Azad - theprotix](https://theprotix.github.io/) ([source](https://github.com/theprotix/theprotix.github.io))
