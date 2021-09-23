@@ -10,7 +10,7 @@ Her er en oversigt over projekter
 ## Deltagere
 
 - [Anders - smiley0bird](https://smiley0bird.github.io/) ([source](https://github.com/smiley0bird/smiley0bird.github.io))
-- [Jakob - thy157](https://thy157.github.io/) ([source](https://github.com/thy157/thy157.github.io))
+- [Jacob - thy157](https://thy157.github.io/) ([source](https://github.com/thy157/thy157.github.io))
 - [Jesper - kilzgaard](https://kilzgaard.github.io/) ([source](https://github.com/kilzgaard/kilzgaard.github.io))
 - [Kasper - kasper534](https://kasper534.github.io/) ([source](https://github.com/kasper534/kasper534.github.io))
 - [Laurits - lassencs](https://lassencs.github.io/) ([source](https://github.com/lassencs/lassencs.github.io))
