@@ -6,6 +6,8 @@ Her er en oversigt over projekter
 - [CSS intro Demo](css-demo/)
 - [Min Stickman](stickman/)
 - [My Bouncing ball](bouncing-ball-demo/)
+- [Logic demo](logic-demo/)
+
 
 ## Deltagere
 
