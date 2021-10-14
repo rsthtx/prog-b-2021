@@ -8,6 +8,7 @@ Her er en oversigt over projekter
 - [My Bouncing ball](bouncing-ball-demo/)
 - [Logic demo](logic-demo/)
 - [Loop demo](loop-demo/)
+- [Event demo](event-demo/)
 
 
 ## Deltagere
