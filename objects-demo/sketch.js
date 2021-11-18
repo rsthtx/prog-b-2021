@@ -47,8 +47,9 @@ function createBouncingBalls() {
 
 function createRandomBouncingBalls() {
   randomBouncingBalls = []
+  let pos = createVector(random(50, width - 50), random(50, height - 50))
   for (let i = 0; i < 40; i++) {
-    randomBouncingBalls.push(new RandomBouncingBall(spawnPosition))
+    randomBouncingBalls.push(new RandomBouncingBall(pos))
   }
 }
 
@@ -59,4 +60,10 @@ function mousePressed() {
   spawnPosition.y = mouseY
   // createBalls()
   createBouncingBalls()
+}
+
+function keyPressed() {
+  if('r' == key){
+    createRandomBouncingBalls()
+  }
 }
