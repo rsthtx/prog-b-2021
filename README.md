@@ -11,6 +11,7 @@ Her er en oversigt over projekter
 - [Event demo](event-demo/)
 - [Function demo](function-demo/)
 - [Multi line draw demo](multi-line-draw-demo/)
+- [Objects demo](objects-demo/)
 
 
 ## Deltagere
