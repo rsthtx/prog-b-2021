@@ -12,6 +12,7 @@ Her er en oversigt over projekter
 - [Function demo](function-demo/)
 - [Multi line draw demo](multi-line-draw-demo/)
 - [Objects demo](objects-demo/)
+- [Objects simple demo](objects-simple-demo/)
 
 
 ## Deltagere
