@@ -6,8 +6,9 @@ class Shape {
 
   render() {
     push()
-    noFill()
-    rect(this.startPos.x, this.startPos.y, this.endPos.x, this.endPos.y)
+    stroke('navy')
+    strokeWeight(5)
+    line(this.startPos.x, this.startPos.y, this.endPos.x, this.endPos.y)
     pop()
   }
 }
