@@ -37,3 +37,4 @@ console.log("Contents: ", lines)
 - [Node.js](https://nodejs.org)
 - [Node intro](https://getsrevel.github.io/tech/node/intro/) - getsrevel
 - [fs.readFileSync()](https://nodejs.org/api/fs.html#fsreadfilesyncpath-options)
+- [Command line basics](https://getsrevel.github.io/tools/command-line/)
