@@ -20,16 +20,16 @@ const fs = require("fs")
 const inputFileName = "dummy-input.txt"
 
 // read contents of file
-let lines = fs.readFileSync(inputFileName).toString();
+let content = fs.readFileSync(inputFileName).toString();
 
 // split the files on linebreaks
-lines = lines.split("\n").map(l => l.trim());
+let lines = content.split("\n").map(l => l.trim());
 
 // TODO: remove code below and implement a solution instead
 
 // output number of elements in array
 console.log("Line count:", lines.length)
-console.log("Contents: ", lines)
+console.log("Lines content: ", lines)
 ```
 
 ## Materiale
