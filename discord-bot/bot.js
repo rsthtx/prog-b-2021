@@ -1,6 +1,10 @@
-const fetch = require('node-fetch')
+// Define "require"
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
 
-const { Client, Intents } = require('discord.js')
+import fetch from 'node-fetch';
+import {Client, Intents} from 'discord.js';
+
 const config = {
   intents: [
     Intents.FLAGS.GUILDS,
