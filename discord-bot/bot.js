@@ -1,4 +1,6 @@
-const { Client, Intents } = require('discord.js');
+const fetch = require('node-fetch')
+
+const { Client, Intents } = require('discord.js')
 const config = {
   intents: [
     Intents.FLAGS.GUILDS,
@@ -21,7 +23,7 @@ function readyDiscord() {
 
 client.on('messageCreate', messageCreated)
 
-function messageCreated(msg) {
+async function messageCreated(msg) {
   const s = `User ${msg.author.username} wrote: ${msg.content}`
   console.log(s)
 
@@ -33,12 +35,18 @@ function messageCreated(msg) {
     'Velkommen',
     'Er der snart pause?',
   ]
-
-  if (msg.channel.id === botTestingChannel && msg.content === 'mojn') {
-
-    const index = Math.floor(Math.random() * replies.length)
-    const reply = replies[index]
-    msg.channel.send(reply)
+ 
+  if (msg.channel.id === botTestingChannel) {
+    if (msg.content === '!mojn') {
+      const index = Math.floor(Math.random() * replies.length)
+      const reply = replies[index]
+      msg.channel.send(reply)
+    } else if (msg.content === '!gif') {
+      const url = `https://g.tenor.com/v1/search?q=cat&key=${process.env.TENORKEY}&limit=8`
+      const result = await fetch(url)
+      const json = await result.json()
+      msg.channel.send(json.results[0].url)
+    }
   }
 }
 
