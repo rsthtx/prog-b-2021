@@ -3,7 +3,7 @@ import { createRequire } from "module";
 const require = createRequire(import.meta.url);
 
 import fetch from 'node-fetch';
-import {Client, Intents} from 'discord.js';
+import { Client, Intents } from 'discord.js';
 
 const config = {
   intents: [
@@ -39,17 +39,36 @@ async function messageCreated(msg) {
     'Velkommen',
     'Er der snart pause?',
   ]
- 
+
   if (msg.channel.id === botTestingChannel) {
-    if (msg.content === '!mojn') {
+
+    let tokens = msg.content.split(' ')
+    console.log(tokens)
+
+    if (tokens[0] === '!mojn') {
       const index = Math.floor(Math.random() * replies.length)
       const reply = replies[index]
       msg.channel.send(reply)
-    } else if (msg.content === '!gif') {
-      const url = `https://g.tenor.com/v1/search?q=cat&key=${process.env.TENORKEY}&limit=8`
+    } else if (tokens[0] === '!gif') {
+
+      let keywords = 'dog'
+      if (tokens.length > 1) {
+        keywords = tokens.slice(1).join(' ')
+      }
+      console.log(keywords)
+
+      const url = `https://g.tenor.com/v1/search?q=${keywords}&key=${process.env.TENORKEY}&contentfilter=high`
       const result = await fetch(url)
       const json = await result.json()
-      msg.channel.send(json.results[0].url)
+
+      if (json.results.length < 1) {
+        msg.channel.send("Error: not found")
+        return
+      }
+
+      const index = Math.floor(Math.random() * json.results.length)
+      msg.channel.send(json.results[index].url)
+      msg.channel.send("Gif from Tenor: " + keywords)
     }
   }
 }
