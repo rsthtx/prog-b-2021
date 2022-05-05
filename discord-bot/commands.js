@@ -20,8 +20,9 @@ export default async function(msg) {
     if(command.charAt(0) === '!'){
       // valid command
       command = command.substring(1)
-      // TODO: Check that command exists
-      commands[command](msg, tokens)
+      if(commands[command] != undefined){
+        commands[command](msg, tokens)
+      }
     }
   }
 }

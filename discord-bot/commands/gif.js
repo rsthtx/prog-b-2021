@@ -1,12 +1,11 @@
 import fetch from 'node-fetch';
 
-export default async function (msg, tokens) {
+export default async function (msg, args) {
   let keywords = 'dog'
-  console.log(tokens)
-  if (tokens.length > 0) {
-    keywords = tokens.join(' ')
+
+  if (args.length > 0) {
+    keywords = args.join(' ')
   }
-  console.log(keywords)
 
   const url = `https://g.tenor.com/v1/search?q=${keywords}&key=${process.env.TENORKEY}&contentfilter=high`
   const result = await fetch(url)
