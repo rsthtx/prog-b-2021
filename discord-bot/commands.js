@@ -13,7 +13,6 @@ export default async function(msg) {
 
   const botTestingChannel = process.env.CHANNEL_ID
 
-
   if (msg.channel.id === botTestingChannel) {
 
     let tokens = msg.content.split(' ')

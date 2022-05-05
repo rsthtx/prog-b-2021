@@ -28,5 +28,4 @@ import commandHandler from './commands.js'
 
 client.on('messageCreate', commandHandler)
 
-
 client.login(TOKEN);
