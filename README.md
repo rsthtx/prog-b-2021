@@ -34,7 +34,6 @@ Eksempler der kan køres vha node.js i en kommandoprompt.
 ## Deltagere
 - [Anders - smiley0bird](https://smiley0bird.github.io/) ([source](https://github.com/smiley0bird/smiley0bird.github.io))
 - [Jacob - thy157](https://thy157.github.io/) ([source](https://github.com/thy157/thy157.github.io))
-- [Jesper - kilzgaard](https://kilzgaard.github.io/) ([source](https://github.com/kilzgaard/kilzgaard.github.io))
 - [Malthe - ioya666](https://ioya666.github.io/) ([source](https://github.com/ioya666/ioya666.github.io))
 - [Michael - homohenning2345](https://homohenning2345.github.io/) ([source](https://github.com/homohenning2345/homohenning2345.github.io))
 - [Azad - theprotix](https://theprotix.github.io/) ([source](https://github.com/theprotix/theprotix.github.io))
