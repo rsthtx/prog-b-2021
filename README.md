@@ -30,6 +30,8 @@ Eksempler der kan køres vha node.js i en kommandoprompt.
 ## Julekalender
 - [Advent of Code](advent-of-code/)
 
+## Godot
+- [My first script demo](godot-demo/web/My-first-script.html)
 
 ## Deltagere
 - [Anders - smiley0bird](https://smiley0bird.github.io/) ([source](https://github.com/smiley0bird/smiley0bird.github.io))
