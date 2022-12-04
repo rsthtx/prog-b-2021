@@ -28,7 +28,8 @@ Eksempler der kan køres vha node.js i en kommandoprompt.
 - [const demo](cli-demo/const-demo.js)
 
 ## Julekalender
-- [Advent of Code](advent-of-code/)
+- [Advent of Code 2021](advent-of-code/)
+- [Advent of Code 2022](advent-of-code-2022/)
 
 ## Godot
 - [My first script demo](godot-demo/web/My-first-script.html)
