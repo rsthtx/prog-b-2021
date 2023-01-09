@@ -1,20 +1,11 @@
 def solutionA(lines):
-  max_calories = 0
-  calories = 0
-  for line in lines:
-    if line == '':
-      max_calories = max(calories, max_calories)
-      calories = 0
-    else:
-      calories += int(line)
-
-  max_calories = max(calories, max_calories)
-
-  return max_calories
-
+  return solve(lines)
 
 def solutionB(lines):
   max_calories = [0,0,0]
+  return solve(lines, max_calories)
+
+def solve(lines, max_calories = [0]):
   calories = 0
   for line in lines:
     if line == '':
@@ -22,8 +13,6 @@ def solutionB(lines):
       calories = 0
     else:
       calories += int(line)
-      
-    print(line, max_calories)
 
   handle_max_list(calories, max_calories)
 
@@ -33,12 +22,9 @@ def solutionB(lines):
 def handle_max_list(calories, max_calories):
   for idx, value in enumerate(max_calories):
     if calories > value:
-      # insert in list
       max_calories.insert(idx, calories)
-      # remove last element
       max_calories.pop()
       break
-  
 
 
 # Helper function for loading the problem data
