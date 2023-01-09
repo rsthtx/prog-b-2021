@@ -18,25 +18,19 @@ def solutionB(lines):
   calories = 0
   for line in lines:
     if line == '':
-      # TODO: handle max list
-      # handle_max_list(calories, max_calories)
-      
-      
-      for idx, value in enumerate(max_calories):
-        if calories > value:
-          # insert in list
-          max_calories.insert(idx, calories)
-          # remove last element
-          max_calories.pop()
-          break
-      
+      handle_max_list(calories, max_calories)
       calories = 0
     else:
       calories += int(line)
       
     print(line, max_calories)
 
-  # TODO: handle max list
+  handle_max_list(calories, max_calories)
+
+  return sum(max_calories)
+
+
+def handle_max_list(calories, max_calories):
   for idx, value in enumerate(max_calories):
     if calories > value:
       # insert in list
@@ -44,11 +38,7 @@ def solutionB(lines):
       # remove last element
       max_calories.pop()
       break
-
-  return sum(max_calories)
-
-
-
+  
 
 
 # Helper function for loading the problem data
