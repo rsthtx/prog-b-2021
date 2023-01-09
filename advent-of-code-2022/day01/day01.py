@@ -14,8 +14,41 @@ def solutionA(lines):
 
 
 def solutionB(lines):
-  # TODO: replace with code solving the problem
-  return -2 # Dummy result, deliberately wrong
+  max_calories = [0,0,0]
+  calories = 0
+  for line in lines:
+    if line == '':
+      # TODO: handle max list
+      # handle_max_list(calories, max_calories)
+      
+      
+      for idx, value in enumerate(max_calories):
+        if calories > value:
+          # insert in list
+          max_calories.insert(idx, calories)
+          # remove last element
+          max_calories.pop()
+          break
+      
+      calories = 0
+    else:
+      calories += int(line)
+      
+    print(line, max_calories)
+
+  # TODO: handle max list
+  for idx, value in enumerate(max_calories):
+    if calories > value:
+      # insert in list
+      max_calories.insert(idx, calories)
+      # remove last element
+      max_calories.pop()
+      break
+
+  return sum(max_calories)
+
+
+
 
 
 # Helper function for loading the problem data
