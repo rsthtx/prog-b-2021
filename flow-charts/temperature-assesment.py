@@ -1,4 +1,3 @@
-
 def evaluate_temperature(temperature):
   if (temperature <= 10):
     return "For koldt til at stå op - bliv i sengen"
@@ -12,7 +11,7 @@ def evaluate_temperature(temperature):
 
 
 def prompt_for_number(message):
-  line = input(message)
+  line = input(f"{message} ")
   return float(line)
 
 def confirm(question):
@@ -28,13 +27,18 @@ def confirm(question):
   return response == affirmative
 
 
-if __name__ == "__main__":
+def main():
   print("Temperatur vurdering")
 
   while True:
-    temperature = prompt_for_number("Hvad er temperaturen i grader celsius? ")
+    temperature = prompt_for_number("Hvad er temperaturen i grader celsius?")
     result = evaluate_temperature(temperature)
     print(result)
 
     if not confirm("Vil du prøve igen?"):
       break
+  
+
+
+if __name__ == "__main__":
+  main()
