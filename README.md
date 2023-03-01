@@ -33,6 +33,7 @@ Eksempler der kan køres vha node.js i en kommandoprompt.
 
 ## Godot
 - [My first script demo](godot-demo/web/My-first-script.html)
+- [Spil projekt](../prog-b-2021-project/)
 
 ## Deltagere
 - [Anders - smiley0bird](https://smiley0bird.github.io/) ([source](https://github.com/smiley0bird/smiley0bird.github.io))
